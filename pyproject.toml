@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gpt-investor"
+version = "0.1.0"
+description = ""
+authors = ["Martin Xu <15661672+martinxu9@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+reflex = "^0.4.5"
+yfinance = "^0.2.37"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
