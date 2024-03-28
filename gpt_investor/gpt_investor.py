@@ -1,6 +1,5 @@
 """Welcome to Reflex! This file outlines the steps to create a basic app."""
 
-import os
 from .gpt_utils import (
     generate_ticker_ideas,
     get_analyst_ratings,
@@ -15,8 +14,6 @@ from rxconfig import config
 import reflex as rx
 
 prices = {}
-
-
 
 
 class State(rx.State):
